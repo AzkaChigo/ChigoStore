@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Produk - CHIGO STORE</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e7f3fe;
+            color: #333;
+        }
+        header {
+            background-color: #000000;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            background-color: #000000;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 40px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #1e90ff;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+        h1 {
+            margin-bottom: 30px;
+        }
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+            gap: 20px;
+        }
+        .product-card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+            text-decoration: none; /* Menghilangkan garis bawah pada link */
+            color: inherit; /* Menggunakan warna teks yang sama */
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+        .product-image {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-bottom: 1px solid #ddd;
+        }
+        .product-info {
+            padding: 15px 20px;
+        }
+        .product-name {
+            font-size: 1.1rem;
+            font-weight: bold;
+            margin: 0 0 10px;
+            color: #000;
+        }
+        .product-description {
+            font-size: 0.9rem;
+            color: #555;
+            margin-bottom: 15px;
+        }
+        .product-price {
+            font-weight: bold;
+            color: #1e90ff;
+            font-size: 1.1rem;
+        }
+        footer {
+            background-color: #000000;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>CHIGO STORE - Produk</h1>
+</header>
+
+<nav>
+    <a href="index.html">Beranda</a>
+    <a href="produk.html">Produk</a>
+    <a href="tentangkami.html">Tentang Kami</a>
+</nav>
+
+<div class="container">
+    <div class="products-grid">
+        <a href="transaksi.html" class="product-card">
+            <img src="keyboard.jfif" alt="Keyboard Mechanical" class="product-image" />
+            <div class="product-info">
+                <h3 class="product-name">Keyboard Mechanical</h3>
+                <p class="product-description">Keyboard mekanik bekas dengan tombol RGB dan build quality premium.</p>
+                <p class="product-price">Rp 750.000</p>
+            </div>
+        </a>
+        <a href="transaksi.html" class="product-card">
+            <img src="kursi.jfif" alt="Kursi Gaming Ergonomis" class="product-image" />
+            <div class="product-info">
+                <h3 class="product-name">Kursi Gaming Ergonomis</h3>
+                <p class="product-description">Kursi gaming dengan desain ergonomis dan bantalan nyaman untuk sesi panjang.</p>
+                <p class="product-price">Rp 1.200.000</p>
+            </div>
+        </a>
+        <a href="transaksi.html" class="product-card">
+            <img src="mouse.jfif" alt="Mouse Gaming RGB" class="product-image" />
+            <div class="product-info">
+                <h3 class="product-name">Mouse Gaming RGB</h3>
+                <p class="product-description">Mouse gaming bekas dengan sensor presisi tinggi dan pencahayaan RGB yang menarik.</p>
+                <p class="product-price">Rp 350.000</p>
+            </div>
+        </a>
+        <a href="transaksi.html" class="product-card">
+            <img src="macbook.jfif" alt="MacBook Bekas" class="product-image" />
+            <div class="product-info">
+                <h3 class="product-name">MacBook Bekas</h3>
+                <p class="product-description">MacBook bekas dengan kondisi yang masih sangat baik dan performa lancar.</p>
+                <p class="product-price">Rp 7.500.000</p>
+            </div>
+        </a>
+        <a href="transaksi.html" class="product-card">
+            <img src="monitor.jfif" alt="Monitor LED 24 inch" class="product-image" />
+            <div class="product-info">
+                <h3 class="product-name">Monitor LED 24 inch</h3>
+                <p class="product-description">Monitor LED ukuran 24 inci dengan resolusi Full HD dan refresh rate 75Hz.</p>
+                <p class="product-price">Rp 1.500.000</p>
+            </div>
+        </a>
+        <a href="transaksi.html" class="product-card">
+            <img src="headset.jfif" alt="Headset Gaming" class="product-image" />
+            <div class="product-info">
+                <h3 class="product-name">Headset Gaming</h3>
+                <p class="product-description">Headset dengan suara jernih dan mikrofon noise-cancelling, cocok untuk gaming.</p>
+                <p class="product-price">Rp 400.000</p>
+            </div>
+        </a>
+        <a href="transaksi.html" class="product-card">
+            <img src="casing.jfif" alt="Casing PC" class="product-image" />
+            <div class="product-info">
+                <h3 class="product-name">Casing PC</h3>
+                <p class="product-description">Casing PC bergaya modern dengan ventilasi optimal dan desain stylish.</p>
+                <p class="product-price">Rp 600.000</p>
+            </div>
+        </a>
+    </div>
+</div>
+
+<footer>
+    <p>BERDIRI SEJAK 2024</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaksi - CHIGO STORE</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #000000;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            background-color: #000000;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 70px;
+            text-decoration: none;
+        }
+        .container {
+            margin: 35px;
+            padding: 20px;
+            background-color: #e7f3fe;
+        }
+        footer {
+            background-color: #000000;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>CHIGO STORE</h1>
+</header>
+
+<nav>
+    <a href="produk.html">Produk</a>
+    <a href="transaksi.html">Transaksi</a>
+    <a href="tentangkami.html">Tentang Kami</a>
+</nav>
+
+<div class="container">
+    <h2>Transaksi</h2>
+    <p>Silakan masukkan detail transaksi Anda di bawah ini:</p>
+    <form>
+        <label for="nama">Nama Pembeli:</label><br>
+        <input type="text" id="nama" name="nama" required><br><br>
+        
+        <label for="produk">Produk yang Dibeli:</label><br>
+        <input type="text" id="produk" name="produk" required><br><br>
+        
+        <label for="jumlah">Jumlah:</label><br>
+        <input type="number" id="jumlah" name="jumlah" required><br><br>
+        
+        <label for="alamat">Alamat Pengiriman:</label><br>
+        <textarea id="alamat" name="alamat" rows="4" required></textarea><br><br>
+        
+        <input type="submit" value="Kirim Transaksi">
+    </form>
+</div>
+
+<footer>
+    <p>Footer © 2025</p>
+</footer>
+
+</body>
+</html>
